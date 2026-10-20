@@ -1,0 +1,16 @@
+[project]
+name = "lotto"
+version = "0.1.0"
+description = "Statistics, number picker and backtester for Mini Loto, Loto 6 and Loto 7"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+lotto = "lotto.cli:main"
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["lotto"]
